@@ -1,0 +1,49 @@
+.btn-1 {
+    background-color: var(--bs-primary);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 25px;
+}
+
+.nav-link {
+    padding: 2px;
+    margin-inline-end: 5px;
+    font-size: 25px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 478px) {
+    .logo {
+        width: 58%;
+    }
+
+    .nav-contain {
+        display: flex !important;
+    }
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1.2em;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .logo {
+        width: 59%;
+    }
+
+    .navbar-brand {
+        width: 75%;
+    }
+
+    .nav-contain {
+        /* display: block !important; */
+        display: flex !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1.2em;
+    }
+
+}

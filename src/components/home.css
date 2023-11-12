@@ -1,0 +1,54 @@
+.hero{
+    background-image: url(images/bghero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+}
+.weather-head{
+    width: 75%;
+    margin: 30px 0px;
+    display: inline-block;
+}
+.dark-span{
+    padding-left: 15px;
+}
+.hollow{
+    height: 10vh;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {  
+    .weather-head{
+        width: 100%;
+        font-size: 35px
+    }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 767px){
+    .weather-head{
+        width: 100%;
+        font-size: 27px
+    }
+} 
+@media only screen and (min-width: 375px) and (max-width: 478px) {
+    .weather-head{
+        width: 85%;
+        font-size: 18px !important;
+    }
+    .dark-span{
+        padding-left: 5px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .weather-head{
+        width: 100%;
+        font-size: 15px !important;
+    }
+    .dark-span{
+        padding-left: 5px;
+    }
+    
+}

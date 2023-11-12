@@ -1,0 +1,78 @@
+.hero-ab{
+    background-image: url(images/bghero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    width: 100%;
+}
+.bord{
+    width: 5%;
+    height: 8px;
+    background-color: var(--bs-primary);
+    border-radius: 5px;
+    position: relative;
+}
+.bord::before,
+.bord::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: -45%;
+    width: 38%;
+    height: 8px;
+    background-color: var(--bs-primary);
+    border-radius: 3px;
+}
+.bord::after{
+    right: -75%;
+    width: 23%;
+}
+.about-row .col-md-3{
+    border-radius: 25px;
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    .abt-sec{
+        margin: 20px 0px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .bord{
+        display:inline-block ;
+        text-align: center;
+        height: 5px;
+    }
+    .bord::before{
+        height: 5px;
+    }
+    .bord::after{
+        height: 5px;
+        right: -95%;
+        width: 35%;
+    }
+    .team{
+        font-size: 24px !important;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .abt-sec{
+        margin: 20px 0px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .bord{
+        display:inline-block ;
+        text-align: center;
+        height: 5px;
+    }
+    .bord::before{
+        height: 5px;
+    }
+    .bord::after{
+        height: 5px;
+        right: -95%;
+        width: 35%;
+    }
+    .team{
+        font-size: 20px !important;
+    }
+}
